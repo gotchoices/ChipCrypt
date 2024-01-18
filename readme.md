@@ -1,10 +1,10 @@
-## Welcome to ChipCrypt
+# Welcome to ChipCrypt
 
-### Purpose
+## Purpose
 
 The ChipCrypt library provides Typescript implementations of symmetric and asymmetric encryption.  This allows development of libraries that need encryption, without binding that library to a specific implementation.
 
-### Usage
+## Usage
 
 ####Encrypt data:
 
@@ -17,7 +17,9 @@ The ChipCrypt library provides Typescript implementations of symmetric and asymm
 
 This library is tiny, just refer to the source code in symmetric.ts and asymmetric.ts for reference.
 
-### Development
+## Development
 
 * Build: ```npm run build```
 	* Builds into an ES module
+
+* This project uses npm-link-helper for local development workflow.
