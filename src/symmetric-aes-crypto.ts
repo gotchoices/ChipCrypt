@@ -1,7 +1,7 @@
 import { Symmetric } from 'chipcryptbase';
 import * as crypto from 'crypto';
 
-class SymmetricEncryptionImpl implements Symmetric {
+export class SymmetricImpl implements Symmetric {
 	generateKey(): Buffer {
 		return crypto.randomBytes(32);
 	}
