@@ -21,5 +21,4 @@ This library is tiny, just refer to the source code in symmetric.ts and asymmetr
 
 * Build: ```npm run build```
 	* Builds into an ES module
-
-* This project uses npm-link-helper for local development workflow.
+* Add .editorconfig support to VSCode or other IDE to honor conventions
